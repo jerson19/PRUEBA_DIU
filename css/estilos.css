@@ -1,0 +1,284 @@
+@import url('reset.css');
+@import url('fuentes.css');
+/*--- Estilos Generales ---*/
+body{
+	background: #2d2d2d;
+	font-family: Arial,Helvetica, Sans-serif;
+}
+
+a { text-decoration: none; color: white;}
+a:hover{ text-decoration: underline;}
+#wrap{
+	width : 960px;
+	margin : auto;
+	clear: both;
+}
+
+/*--- Header ---*/
+header {
+	width: 100%;
+	float: left;
+	background: #e4e0e0; /* Old browsers */
+	background: -moz-linear-gradient(top, #e4e0e0 1%, #ffffff 100%); 
+	background: -webkit-linear-gradient(top, #e4e0e0 1%,#ffffff 100%); 
+	background: linear-gradient(to bottom, #e4e0e0 1%,#ffffff 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e0e0', endColorstr='#ffffff',GradientType=0 ); 
+	box-shadow: 0px 3px 5px #000;
+		-moz-box-shadow: 0px 3px 5px #000;
+		-webkit-box-shadow: 0px 3px 5px #000;
+}
+#subheader {
+	width: 960px;
+	margin: auto;
+}
+#logotipo {
+	float:left;
+	width: 300px;
+	padding: 10px 0px;
+}
+#logotipo a{
+	font-family: sourcesans-light;
+	font-size: 50px;
+	color: #000;
+}
+#logotipo a:hover{ text-decoration: none;}
+
+/*--- Menu  ----*/
+header #subheader2 nav{
+	float: left;
+	width: 660px;
+	padding: 30px 0px;
+	text-align: right;
+}
+header #subheader2 nav ul li {
+	display: inline;
+	font-family: sourcesans;
+
+}
+header #subheader2 nav ul li a {
+	color: #000;
+	font-size: 20px;
+	padding: 10px;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+}
+header #subheader2 nav ul li a:hover {
+	color: #fff;
+	background: #1798af;
+	text-decoration: none;
+}
+
+/*--- MAIN ---*/
+#main {
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	float: left;
+}
+/*---- SLIDEshow---*/
+#slideshow {
+	width: 920px;
+	height: 260px;
+	float: left;
+	background-color: black;
+	border: solid 20px #fff;
+	margin-bottom: 10px;
+}
+
+#slideshow img {
+	width: 920px;
+	height: 260px;
+}
+
+#slideshow .pagination {
+	margin: 26px auto;
+	width: 100px;	
+}
+
+#slideshow .pagination li{
+	float: left;
+	margin: 0px 5px;
+	list-style: none;
+}
+
+#slideshow .pagination li a{
+	display: block;
+	width: 12px;
+	height: 0px;
+	padding-top: 12px;
+	background: white;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+}
+
+/*--- BIENVENIDOS---*/
+#bienvenido {
+	width: 920px;
+	float: left;
+	padding: 20px;
+	background: #2d4c1e; /* Old browsers */
+		background: -moz-linear-gradient(top, #2d4c1e 1%, #46793a 100%, #7db9e8 100%, #7db9e8 100%);
+		background: -webkit-linear-gradient(top, #2d4c1e 1%,#46793a 100%,#7db9e8 100%,#7db9e8 100%); 
+		background: linear-gradient(to bottom, #2d4c1e 1%,#46793a 100%,#7db9e8 100%,#7db9e8 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d4c1e', endColorstr='#7db9e8',GradientType=0 ); 	
+	margin: 20px 0px;
+		border-radius:  5px;
+		-moz-border-radius:  5px;
+		-webkit-border-radius:  5px;
+	box-shadow: 0px 3px 3px black;
+		-moz-box-shadow: 0px 3px 3px black;
+		-webkit-box-shadow: 0px 3px 3px black;
+}
+
+#bienvenido article h2{
+	font-family: sourcesanas-light;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+#bienvenido article {
+	color : white;
+	line-height: 27px;
+}
+/*--- CONTENIDO ---*/
+#contenido {
+	width: 700px;
+	float: left;
+}
+
+#contenido article {
+	float: left;
+	margin-bottom: 20px;
+}
+
+#contenido article .titulo {
+	font-size: 22px;
+	font-family: sourcesans-light;
+	color: white;
+}
+
+#contenido article .fecha {
+	font-size: 14px;
+	color: #1798af;
+	margin-bottom: 5px;
+}
+
+#contenido article .img_principal {
+	width: 220px;
+	height: 150px;
+	float: left;
+	margin : 0px 10px 10px 0px;
+}
+
+#contenido article > p{
+	color: #8c8c8c;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 15px;
+}
+
+/*---sidebar---*/
+aside {
+	width: 220px;
+	float: left;
+	margin-left: 20px; 
+	background-color: #4d78e3;
+	padding: 10px 10px 0px 10px;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	box-shadow: 0px 2px 2px black;
+}
+aside section .img_cotizacion {
+	width: 220px;
+	height: 150px;
+	float: left;
+	margin : 0px 10px 10px 0px;
+}
+aside .widget {
+	margin-bottom: 10px;
+	float: left;
+}
+aside .widget > h3 {
+	background: white;
+	color: #4d78b3;
+	width: 220px;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: bold;
+	margin-bottom: 10px;
+}
+aside .widget a {color: white; }
+aside .widget ul li { margin-bottom: 5px; }
+
+/* FOOTER */
+footer {
+	width: 100%;
+	float: left;
+	clear: both;
+	box-shadow: 0px 2px 2px black;
+		-moz-box-shadow: 0px 2px 2px black;
+		-webkit-box-shadow: 0px 2px 2px black;
+	background: #2f2f2f; /* Old browsers */
+		background: -moz-linear-gradient(top, #2f2f2f 1%, #242424 100%, #7db9e8 100%, #7db9e8 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #2f2f2f 1%,#242424 100%,#7db9e8 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #2f2f2f 1%,#242424 100%,#7db9e8 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+footer section {
+	width: 440px;
+	float: left;
+	padding: 20px;
+}
+
+footer #acerca-de {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	color: #8c8c8c;
+	text-align: justify;
+	line-height: 20px;
+}
+
+footer #acerca-de h3{
+	font-family: sourcesans-light;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+footer #redes-s > div{
+	width: 220px;
+	height: 60px;
+	float: left;
+	background: orange;
+	opacity: 0.7;
+}
+footer #redes-s >div a {
+	width: 220px;
+	height: 60px;
+	display: inline-block;
+}
+
+footer #redes-s .email {
+	background: url(../imagenes/cocina_1.jpg);
+}
+
+footer #redes-s >div:hover {
+	opacity: 1;
+}
+
+#copyright {
+	float: left;
+	width: 960px;
+	margin: 10px 0px;
+}
+#copyright p {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	font-family: Arial, Helvetica, Sans-serif;
+}
