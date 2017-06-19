@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>EL TIGRE</title>
+	<link rel="stylesheet" type="text/css" href="css/miestilo.css">
+</head>
+
+<body>
+	<header>
+		<div id="titulo">
+			<h1>MUEBLERIA EL TIGRE</h1>
+		</div >
+	</header>
+
+	<section id="principal">
+		<section id="barra_nav">
+			<div>
+				<nav>
+					<ul>
+						<li><a href="DIU_pagina.html">NOSOTROS</a></li>
+						<li><a href="catalogo.html">CATALOGO</a></li>
+						<li><a href="asesoria.html">ASESORIA</a></li>
+						<li><a href="compras.html">COMPRAS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<section id="catalogo">
+			<h1>Detalles del Producto</h1>
+			<div id="form_detalles">
+				<form id="form_descripcion">
+					<div id="form-inline">
+						<label>Dimensiones :</label>
+						<input type="text" name="x" placeholder="largo">	
+						<label id="por"> X </label>
+						<input type="text" name="y" placeholder="ancho">
+					</div>
+					<div>
+						<label>Tipo de Madera :</label>
+						<select id="select_tmadera">
+							<option>caoba</option>
+							<option>cedro</option>
+							<option>pino</option>
+						</select>	
+					</div>
+					<div>
+						<label>Acabado :</label>
+						<select id="select_acabado">
+							<option>Experto</option>
+							<option>Matizado</option>
+						</select>	
+					</div>
+					<div>
+						<label>Color :</label>
+						<input id="input_color" type="Color" name="color" value="#3B0B0B">	
+					</div>
+					<div>
+						<label>Descripcion :</label>		
+					</div>
+					
+				</form>	
+				<textarea rows="5" cols="50" name="Descripcion" form="form_descripcion" placeholder="Ingrese una breve descripcion"></textarea>
+			</div>
+			<div id="botones_prod">
+				<a href="compras_cotiza.html"><button name="atras" class="myButton">atras</button></a>
+				<a href="compras_cotiza_datos_personales.html"><button name="atras" class="myButton">siguiente</button></a>
+			</div>
+		</section>
+	</section>
+
+</body>
+</html>
